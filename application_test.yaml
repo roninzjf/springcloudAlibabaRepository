@@ -1,0 +1,10 @@
+server:
+  port: 3002
+  
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://Ronin-Eureka1:7001/eureka,http://Ronin-Eureka2:7002/eureka
